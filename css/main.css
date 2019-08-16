@@ -1,0 +1,50 @@
+body {
+    background-color: lightblue;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+    border: solid;
+}
+.imgDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.imgTag {
+    margin-top: 50px;
+    margin-bottom: -40px;
+    border: solid;
+}
+
+h1 {
+    border: solid;
+    font-size: xx-large;
+}
+
+.box1 {
+    border: solid;
+}
+
+.billSpon{
+    border-top: solid;
+}
+
+.committeeTag{
+    text-decoration: underline;
+    font-size: larger;
+    margin-right: 40px;
+}
+
+.billContainer .billSpon:hover {
+    background-color: lightsalmon;
+}
+
+.sponsor {
+    text-decoration: underline;
+}
