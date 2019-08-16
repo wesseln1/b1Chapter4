@@ -17,9 +17,10 @@ body {
 }
 
 .imgTag {
-    margin-top: 50px;
+    margin-top: 12px;
     margin-bottom: -40px;
     border: solid;
+    width: 200px;
 }
 
 h1 {
@@ -47,4 +48,27 @@ h1 {
 
 .sponsor {
     text-decoration: underline;
+}
+
+.headerDiv {
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    justify-content: center;
+    background-color: lightgray;
+
+}
+
+.headerTag{
+    text-align: justify;
+
+}
+
+.flexDiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navDiv {
+    text-align: left;
 }
